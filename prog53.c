@@ -14,11 +14,14 @@ int main()
         printf("\n Enter data ");
         scanf("%d",&b[i]);
     }
-    for(i=0;i<3;i++)
-        c[i]=a[i]+b[i];
         printf("\n Array 3");
         for(i=0;i<3;i++)
-    printf("\n Your total array sum is %d +%d =%d",a[i],b[i],c[i]);
+        {
+          c[i]=a[i]+b[i];
+
+              printf("\n Your total array sum is %d +%d =%d",a[i],b[i],c[i]);
+
+        }
 
 
 
