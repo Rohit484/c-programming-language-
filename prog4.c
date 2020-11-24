@@ -1,16 +1,23 @@
 #include<stdio.h>
-int main()
+struct student
 {
-    int c,a;
-    float f;
-    a=9/5;
+    int Rollno;
+    char name[10];
 
-    f=32;
-    printf("\n Enter a temperature ");
-    scanf("%d",&c);
-    f=(c*a)+32;
-    printf("\n your farenhight is %f",f);
-
-
-
+};
+void main()
+{
+    struct student s1,s2;
+    printf("\n Enter your roll no ");
+    scanf("%d",&s1.Rollno);
+    printf("\n Enter your name ");
+    scanf("%s",s1.name);
+    printf("\n Enter your roll no ");
+    scanf("%d",&s2.Rollno);
+    printf("\n Enter your name ");
+    scanf("%s",&s2.name);
+    printf("\n your roll number  is %d",s1.Rollno);
+    printf("\n name is %s",s1.name);
+    printf("\n roll number is %d",s2.Rollno);
+    printf("\n name is %s",s2.name);
 }
