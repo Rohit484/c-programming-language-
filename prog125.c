@@ -1,35 +1,35 @@
-#include<stdio.h>
-void main()
+#INCLUDE<STDIO.H>
+VOID MAIN()
 {
-   int a[3],b[5],c[8],i,j=0;;
-   printf("\n array 1");
-   for(i=0;i<3;i++)
+   INT A[3],B[5],C[8],I,J=0;;
+   PRINTF("\N ARRAY 1");
+   FOR(I=0;I<3;I++)
    {
-      printf("\n enter a value ");
-      scanf("%d",&a[i]);
+      PRINTF("\N ENTER A VALUE ");
+      SCANF("%D",&A[I]);
 
    }
-   printf("\n array 2");
-   for(i=0;i<5;i++)
+   PRINTF("\N ARRAY 2");
+   FOR(I=0;I<5;I++)
    {
-      printf("\n enter a second  value ");
-      scanf("%d",&b[i]);
+      PRINTF("\N ENTER A SECOND  VALUE ");
+      SCANF("%D",&B[I]);
 
    }
-   for(i=0;i<8;i++)
+   FOR(I=0;I<8;I++)
    {
-       if(i<3)
-        c[i]=a[i];
-       else
+       IF(I<3)
+        C[I]=A[I];
+       ELSE
        {
-           c[i]=b[j];
-           j++;
+           C[I]=B[J];
+           J++;
        }
    }
-   printf("\n array 3 ");
-   for(i=0;i<8;i++)
+   PRINTF("\N ARRAY 3 ");
+   FOR(I=0;I<8;I++)
    {
-       printf("\n %d",c[i]);
+       PRINTF("\N %D",C[I]);
    }
 
 
