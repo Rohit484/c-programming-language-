@@ -7,7 +7,7 @@ void main()
     ch=fgetc(fp);
     while(ch!=EOF)
     {
-        printf("%c",ch);
+        fputc(strrev(ch),fp);
         ch=fgetc(fp);
 
 
